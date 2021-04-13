@@ -1,3 +1,5 @@
+% This exercise helps you learn how to write functions clearly by 
+% assigning variables
 function x = ballHeight( t )
    x0 = 15; % m
    v0 = 39; % m/s
