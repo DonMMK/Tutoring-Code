@@ -1,7 +1,6 @@
 %% Thinking process
 % the inputs are three values r1 r2 and r3
-% Write an equation to get the total resistance
-
+% Write an equation to get the solution for
 %% Solution
 function R = resistors( r1, r2, r3)
 	%Calculate R here

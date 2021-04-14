@@ -1,3 +1,5 @@
+%% Released Solution
+
 function inversePlot()
     %insert hold and fplot commands here
     % 1st plot: y=x^2 in [0,2], in blue

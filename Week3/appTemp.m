@@ -1,3 +1,7 @@
+%% Thinking process
+% Your inputs are 
+
+%% Released Solution
 function AT = appTemp( T, H, W )
     %Calculate AT here
     e = (H/100) * 6.105 * exp(17.27 * T / (237.7 + T));

@@ -1,3 +1,4 @@
+%% Released Solution
 function sinePlot(amplitude,period,phase)
 % From the lecture:
 % If f(x)=a*sin(b*x+c), then amplitude=a, period=2*pi/b, phase=-c/b
