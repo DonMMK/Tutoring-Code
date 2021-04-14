@@ -1,3 +1,7 @@
+%% Thinking process
+% 
+
+%% Solution 
 function T = torqueCalc(F,r)
     % use the in built cross product for this question
     % Torque equation T = r x F

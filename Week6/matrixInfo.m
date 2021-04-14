@@ -1,3 +1,7 @@
+%% Thinking process
+% 
+
+%% Solution 
 function [a b c] = matrixInfo( A )
     % a = <insert code>;
         a = size(A);

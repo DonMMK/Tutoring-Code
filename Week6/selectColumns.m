@@ -1,4 +1,7 @@
+%% Thinking process
+
+%% Solution
 function B = selectColumns( A )
-% B = ...;
+B = A(: , 2:2:end)
     
 end

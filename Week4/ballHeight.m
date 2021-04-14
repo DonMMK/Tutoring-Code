@@ -1,3 +1,7 @@
+%% Thinking process
+% 
+
+%% Solution 
 function x = ballHeight (t)
     
     % Define the variables

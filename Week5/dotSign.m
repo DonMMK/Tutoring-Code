@@ -1,3 +1,7 @@
+%% Thinking process
+% 
+
+%% Solution 
 function c = dotSign(a,b)
     % Compute the dot product first
     c = dot(a , b);

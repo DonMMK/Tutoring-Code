@@ -1,3 +1,7 @@
+%% Thinking process
+% 
+
+%% Solution 
 function VectorPlot()
     % Initialise your variables
     OA = [1 ; 2];

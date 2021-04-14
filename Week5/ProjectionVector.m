@@ -1,3 +1,7 @@
+%% Thinking process
+% 
+
+%% Solution 
 function c = ProjectionVector(a,b)
 	% Use the projection equation ( a . b^ ) b^
     bnorm = norm(b);

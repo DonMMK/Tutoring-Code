@@ -1,3 +1,6 @@
+%% Thinking process
+
+%% Released Solution
 function dampedOsc3()
    % we first define the discretisation points along x:
    x = 0:0.01:2; % points between 0 and 5 (included) by steps of 0.01
