@@ -5,8 +5,8 @@
 function [R,b,c] = vectorRotate(a)
     %R = ...; Create rotation matrix that rotates by 45 degrees
     theta = 45;
-    R = [cosd(theta) -sind(theta);
-         sind(theta)  cosd(theta) ];
+    R = [cos(theta) -sin(theta);
+         sin(theta)  cos(theta) ];
     %b = ...; rotate a by 45 degrees
     b = 
     %c = ...; rotate b by 45 degrees
