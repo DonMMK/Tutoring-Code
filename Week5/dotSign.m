@@ -1,5 +1,6 @@
 %% Thinking process
-% 
+% Using the in built dot function gives you the dot product of the matrices
+% Then using basic logic to determine the result to be displayed.
 
 %% Solution 
 function c = dotSign(a,b)

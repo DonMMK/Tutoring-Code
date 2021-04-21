@@ -1,5 +1,6 @@
 %% Thinking process
-% 
+% Extracting a smaller matrix from the given large matrix using the :
+% symbol to specify the range
 
 %% Solution 
 function B = subMatrix1( A )
