@@ -10,7 +10,7 @@ function x = linSys1()
     eqn1 = -9.4*x1 - 0.31*x2 -5.85*x3 + 3.82*x4 == 0.08;
     eqn2 = -1.25*x1 + 1.46*x2 + 3.2*x3 + 9*x4 == 9.45;
     eqn3 = -3.04*x1 + 7.69*x2 + 5.88*x3 -3.98*x4 == -2.18;
-    eqn4 = 8.07*x1 + 8.54*x2 + 5.5*x3 + 8.6*x4 == 0.08;
+    eqn4 = 8.07*x1 + 8.54*x2 + 5.5*x3 + 8.6*x4 == -1.51;
     
     % Use this as a template when solving linear systems with 3 variables
     % change accordingly for 2 variables
@@ -26,3 +26,7 @@ function x = linSys1()
     x3Sol = sol.x3
     x4Sol = sol.x4
 end
+
+% Another method to solve this is using the backslash \ where
+% A \ b
+% This is the same as using inv(A) * b
