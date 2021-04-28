@@ -22,3 +22,8 @@ end
 
 
 % Alternatively you can use anonymous functions 
+
+% Option 3
+% function y0 = y_intercept(f)
+%       y0 = f(0);
+% end
