@@ -6,6 +6,7 @@
 % In this question we will use the if condition to check the sign of the number
 % then we will proceed to squre the number. Then we will multiply it wth
 % the sign it had before. All of this will happen inside a for loop.
+% Test terminal
 
 %% Solution 
 function SignedSquare = signedSquare(x)
