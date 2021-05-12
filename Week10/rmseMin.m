@@ -3,13 +3,14 @@
 
 %% Solution 
 function best_k = rmseMin(data,k_guess)
-    k = linspace(0.8*k_guess,1.2*k_guess); %k values within 20% of k_guess
+    k = linspace(0.8*k_guess,1.2*k_guess,100); %k values within 20% of k_guess
     % Discretise the function k -> rmse(data, k) using a for loop to
     % calculate the root mean square errors for all values in the
     % vector k and store these errors in a vector RMSE:
     % INSERT CODE
+    RMSE = zeros(1 , length(k));
     for index = 1: length(k)
-        RMSE = rmse(data,k);
+        RMSE(index) = rmse(data,k(index));
     end
     
     
