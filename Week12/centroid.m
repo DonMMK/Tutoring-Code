@@ -2,5 +2,6 @@
 
 %% Solution 
 function xCentroid = centroid(Func,a,b)
-	%INSERT CODE
+    xVal = linspace(a,b);
+	xCentroid = abs ( integral(xVal*Func) , a ,b ) / abs( integral(Func , a ,b) );
 end
