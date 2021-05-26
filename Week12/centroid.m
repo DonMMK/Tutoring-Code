@@ -2,6 +2,6 @@
 
 %% Solution 
 function xCentroid = centroid(Func,a,b)
-    xVal = linspace(a,b);
-	xCentroid = abs ( integral(xVal*Func) , a ,b ) / abs( integral(Func , a ,b) );
+    FuncTop = @(x) x.*Func(x); 
+	xCentroid = abs ( integral(FuncTop) , a ,b ) / abs( integral(Func , a ,b) );
 end
